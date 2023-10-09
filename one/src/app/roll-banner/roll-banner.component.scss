@@ -1,0 +1,26 @@
+.roll-hold{
+    min-height: 200px;
+    width: 100%;
+    position: relative;
+    background-color: #08151f;
+}
+.roll-hold::before{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(to right,#2b8ecc,#5977f8);
+    filter: drop-shadow(0px 0px 8px #66c2fc);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.roll-hold::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(to right,#2b8ecc,#5977f8);
+    filter: drop-shadow(0px 0px 8px #66c2fc);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

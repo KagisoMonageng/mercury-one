@@ -1,0 +1,47 @@
+// Intro
+.intro-vid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#one {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+#one .hero-banner {
+    position: relative;
+    z-index: 1;
+    font-size: 5rem;
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    & p.heading{
+        filter: drop-shadow(2px 4px 8px black);
+    }
+    & span {
+        font-family: "codec-extra";
+        background: linear-gradient(to right, #5977f8 0%, #6c4ffb 50%, #30a5f0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+}
+.banner-content{
+    text-align: center;
+    width: 50%;
+    color: #30a5f0;
+    position: relative;
+    z-index: 1;
+    margin: 50px auto;
+    font-family: "codec-regular";
+    bottom: -10rem; 
+}
